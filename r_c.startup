@@ -1,0 +1,5 @@
+ip address add 172.18.167.254/22 dev eth0
+ip address add 222.222.222.2/30 dev eth1
+ip link set eth0 up
+ip link set eth1 up
+ip route add default via 222.222.222.1

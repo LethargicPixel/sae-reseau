@@ -1,0 +1,4 @@
+ip address add 111.111.111.1/30 dev eth0
+ip address add 222.222.222.1/30 dev eth1
+ip link set eth0 up
+ip link set eth1 up
